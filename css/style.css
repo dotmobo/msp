@@ -1,5 +1,5 @@
 body {
-    font:14px/1.5em Arial, sans-serif;
+    font:1em Arial, sans-serif;
     color:white;
     background:black;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 footer {
-    padding: 20px 0px;
+    padding-top: 60px;
 }
 
 h1 {
