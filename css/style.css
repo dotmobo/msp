@@ -1,0 +1,45 @@
+body {
+    font:14px/1.5em Arial, sans-serif;
+    color:white;
+    background:black;
+}
+
+.page { 
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+
+footer {
+    padding: 20px 0px;
+}
+
+h1 {
+    line-height:1.2em;
+}
+
+/* unvisited link */
+a:link {
+    color: #06F54D;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #06F54D;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #06F54D;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #06F54D;
+    text-decoration: none;
+  }
