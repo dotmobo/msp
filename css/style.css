@@ -1,7 +1,10 @@
+* { margin:0; padding:0; }
+*, *:before, *:after { box-sizing:border-box; }
+
 body {
     font:1em Arial, sans-serif;
     color:white;
-    background:black;
+    background: black url("../img/background-dead-forest.jpg") no-repeat fixed center; 
 }
 
 .page { 
@@ -10,36 +13,47 @@ body {
     justify-content: center;
     align-items: center;
     margin:0 auto;
+    max-width:980px;
+    min-height:100vh;
+    background:black;
 }
 
+.content { 
+    flex-grow:1;
+}
+
+
+
 footer {
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 h1 {
     line-height:1.2em;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 /* unvisited link */
 a:link {
     color: #06F54D;
     text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
+}
+
+/* visited link */
+a:visited {
     color: #06F54D;
     text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
+}
+
+/* mouse over link */
+a:hover {
     color: #06F54D;
     text-decoration: underline;
-  }
-  
-  /* selected link */
-  a:active {
+}
+
+/* selected link */
+a:active {
     color: #06F54D;
     text-decoration: none;
-  }
+}
