@@ -7,6 +7,10 @@ body {
     background: black url("../img/background-dead-forest.jpg") no-repeat fixed center; 
 }
 
+header {
+    text-align: center;
+}
+
 .page { 
     display:flex;
     flex-direction:column;
@@ -24,6 +28,7 @@ body {
 
 .item{
     text-align: center;
+    padding-top: 20px;
 }
 
 footer {
@@ -31,8 +36,6 @@ footer {
 }
 
 h1 {
-    line-height:1.2em;
-    padding-top: 40px;
     padding-bottom: 20px;
 }
 
