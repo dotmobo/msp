@@ -4,7 +4,7 @@
 body {
     font:1em Arial, sans-serif;
     color:white;
-    background: black url("../img/background-dead-forest.jpg") no-repeat fixed center; 
+    background: black url("../img/background-dead-forest.jpg") no-repeat fixed center;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
     justify-content: center;
     align-items: center;
     margin: auto;
-    max-width:980px;
+    max-width:768px;
     background:black;
 }
 
