@@ -12,17 +12,19 @@ body {
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    margin:0 auto;
+    margin: auto;
     max-width:980px;
-    min-height:100vh;
     background:black;
 }
 
-.content { 
-    flex-grow:1;
+.content {
+    width:100%;
+    padding: 0 10% 0 10%;
 }
 
-
+.item{
+    text-align: center;
+}
 
 footer {
     padding-top: 80px;
