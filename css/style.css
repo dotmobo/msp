@@ -7,6 +7,11 @@ body {
     background: black url("../img/background-dead-forest.jpg") no-repeat fixed center; 
 }
 
+header {
+    text-align: center;
+    width:100%;
+}
+
 .page { 
     display:flex;
     flex-direction:column;
@@ -24,7 +29,9 @@ body {
 }
 
 footer {
+    text-align: center;
     padding-top: 80px;
+    width:100%;
 }
 
 .item {
