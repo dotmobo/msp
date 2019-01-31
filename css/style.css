@@ -45,24 +45,24 @@ h1 {
 
 /* unvisited link */
 a:link {
-    color: #06F54D;
+    color: #8F8F8F;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #06F54D;
+    color: #8F8F8F;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #06F54D;
+    color: #8F8F8F;
     text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: #06F54D;
+    color: #8F8F8F;
     text-decoration: none;
 }
